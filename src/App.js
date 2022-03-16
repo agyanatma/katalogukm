@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Menu from './component/menu/Menu';
+import Home from './component/home/Home';
+import Products from './component/products/Products';
+import Store from './component/store/Store';
+import WebFont from "webfontloader";
 
+WebFont.load({google: {families: ["Roboto:300,400,500"]}});
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <div className="app-header">
+        <Menu />
+      </div>
+      <div className="app-content">
+        <Home />
+      </div>
+      <div className="app-content">
+        <Products />
+      </div>
+      <div className="app-content">
+        <Store />
+      </div>
     </div>
   );
-}
-
-export default App;
+ }
+ 
+ export default App;
