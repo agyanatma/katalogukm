@@ -6,7 +6,9 @@ class Home extends Component {
     render() {
         return (
             <div className="card-b">
-                <p><img src={logo} alt="logo" className="img" align="right"/></p>
+                <div className="img">
+                <img src={logo} alt="logo" className="img" align="right"/>
+                </div>
                     <div className="Titel-a">
                         Tumbuh Bersama Kami
                     </div>

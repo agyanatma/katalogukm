@@ -10,12 +10,13 @@ class Products extends Component {
                         Produk Terlaris
                     </div>
                     <div className="rectangle" />
+                    <div className="container">
                     <Row xs={1} md={3} className="container-1">
                       {Array.from({ length: 3 }).map((_, idx) => (
                       <Col>
                         <Card className="content-c">
-                          <Card.Img className="image" height="156px" width="240px" variant="top" src="https://mdbootstrap.com/img/new/standard/nature/184.webp" />
-                          <Card.Body>
+                          <Card.Img height="156px" width="240px" variant="top" src="https://mdbootstrap.com/img/new/standard/nature/184.webp" />
+                          <Card.Body className="body">
                           <Card.Title className="nambar">Nama Barang</Card.Title>
                           <Card.Text className="namhar">
                             <b>Rp. 24.500</b> 
@@ -26,6 +27,7 @@ class Products extends Component {
                       </Col>
                       ))}
                     </Row>
+                    </div>
                 </div>
         );
     }
