@@ -8,7 +8,7 @@ class Store extends Component {
         return (
             <div className="card1">
               <div className="button2">
-                <Button variant="primary" className="search" >Ketik barang yang ingin anda cari.... </Button>
+                <input className="search" id="search" placeholder="Ketik barang yang ingin anda cari...." />
                 <Button variant="primary" className="cari" ><BsSearch /></Button>
                 </div>
               <div className="container2">

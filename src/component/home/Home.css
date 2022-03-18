@@ -12,7 +12,8 @@
     font-weight: bold;
     font-size: 64px;
     color: #000000;
-    padding: 80px 0px;
+    padding: 20px 0px;
+    margin-top: 100px;
 }
  
 .content-b {
@@ -26,5 +27,5 @@
 
 .img {
     position: static;
-    padding: 10px 50px;
+    padding: 0px 40px;
 }
