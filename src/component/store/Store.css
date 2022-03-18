@@ -38,7 +38,7 @@
 
 .content-d {
     width: 240px;
-    height: 300px;
+    height: 315px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
@@ -51,6 +51,17 @@
     font-size: 14px;
     color: rgba(0, 0, 0, 0.8);
     background-color: #ffffff;
+    row-gap: 0px;
+    margin-top: 20px;
+}
+
+.tersedia {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #ffffff;
+    row-gap: 0px;
+    margin-top: -15px;
 }
 
 .namhar {
@@ -58,6 +69,8 @@
     font-size: 24px;
     color: #000000;
     background-color: #ffffff;
+    margin-top: 0px;
+    padding: 0px 0px;
 }
 .search {
     background: transparent;

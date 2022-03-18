@@ -21,6 +21,9 @@ class Products extends Component {
                           <Card.Text className="namhar">
                             <b>Rp. 24.500</b> 
                           </Card.Text>
+                          <Card.Text className="tersedia">
+                            <b>Tersedia</b> 
+                          </Card.Text>
                           <Button variant="primary" className="btn-1">Terjual</Button>
                           </Card.Body>
                         </Card>
