@@ -3,6 +3,7 @@ import Menu from './component/menu/Menu';
 import Home from './component/home/Home';
 import Products from './component/products/Products';
 import Store from './component/store/Store';
+import DetailProduk from './component/detail_produk/Detail_produk';
 import WebFont from "webfontloader";
 
 WebFont.load({google: {families: ["Roboto:300,400,500"]}});
@@ -20,6 +21,9 @@ function App() {
       </div>
       <div className="app-content">
         <Store />
+      </div>
+      <div className="app-content">
+        <DetailProduk />
       </div>
     </div>
   );

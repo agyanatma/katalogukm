@@ -1,0 +1,122 @@
+body { background-color: #fff }
+
+.js .slider-single > div:nth-child(1n+2) { display: none }
+
+.js .slider-single.slick-initialized > div:nth-child(1n+2) { display: block }
+
+.card-4 {
+    padding: 0px 100px;
+    background-color: #FFFFFF;
+}
+.content-e {
+    width: 450px;
+    height: 450px;
+    background: #FFFFFF;
+    padding: 0px 0px;
+}
+h1 {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: rgba(0, 0, 0, 0.8);
+}
+h2 {
+    background: #C4C4C4;
+    position: static;
+    width: 450px;
+    height: 450px;
+}
+h3 {
+	background: #C4C4C4;
+    position: static;
+    width: 130px;
+    height: 130px;
+}
+.category-1 {
+    background-color: #6EBA93;
+    border-radius: 100px;
+    color: #ffffff;
+    width: 120px;
+    height: 22px;
+    font-size: 12px;
+    border: #6EBA93;
+    Padding: 4px 12px 0px 12px;
+    font-weight: bold;
+    font-weight: 700;
+}
+h5 {
+    font-size: 26px;
+    width: 535px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    padding: 0px 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0px 0px;
+}
+.slider-nav .slick-slide { cursor: pointer; 
+}
+.product {
+    display: flex;
+    padding: 0px 100px;
+    width: 535px;
+}
+.product-description{
+    padding: 0px 50px;
+}
+.judul {
+    display: flex;
+    column-gap: 10px;
+}
+
+.btn-3 {
+    background-color: #6EBA93;
+    border-radius: 6px;
+    color: #ffffff;
+    width: 236px;
+    height: 46px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: #6EBA93;
+}
+
+.btn-2 {
+    width: 154px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #ffffff;
+}
+
+.btn-5 {
+    display: flex;
+    column-gap: 20px;
+    padding-top: 20px;
+}
+.category {
+    width: 68px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #000000;
+}
+.desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.61);
+}
