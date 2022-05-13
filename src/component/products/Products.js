@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Products.css';
+import useItem from '../../queries/useItem';
 import {Card, Row, Col, Button} from "react-bootstrap";
 
-class Products extends Component {
-    render() {
+const Products = () =>  {
+    const {data: item} = useItem()
+        console.log("Item:", item)
         return (
             <div className="card-1">
                     <div className="Titel-1">
@@ -34,7 +36,6 @@ class Products extends Component {
                 </div>
         );
     }
-}
  
 export default Products;
 

@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import useItem from '../../queries/useItem';
 import './Store.css';
 import {Card, Row, Col, Button} from "react-bootstrap";
 import { BsSearch } from 'react-icons/bs';
 
-class Store extends Component {
-    render() {
-        return (
+const Store = () =>  {
+  const {data: item} = useItem()
+      console.log("Item:", item)
+      return (
             <div className="card1">
               <div className="button2">
                 <input className="search" id="search" placeholder="Ketik barang yang ingin anda cari...." />
@@ -35,6 +37,5 @@ class Store extends Component {
                 </div>
         );
     }
-}
  
 export default Store;

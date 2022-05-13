@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Callus.css';
  
-class Home extends Component {
+class Callus extends Component {
     render() {
         return (
             <div className="card">
@@ -18,4 +18,4 @@ class Home extends Component {
     }
 }
  
-export default Home;
+export default Callus;

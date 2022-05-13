@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import useItem from '../../queries/useItem';
 import './Home.css';
 import logo from './logo.png';
 
-class Home extends Component {
-    render() {
+const Home = () =>  {
+        const {data: item} = useItem()
+            console.log("Item:", item)
         return (
             <div className="card-b">
                 <div className="img">
@@ -18,6 +20,5 @@ class Home extends Component {
             </div>
         );
     }
-}
  
 export default Home;

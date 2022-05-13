@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
+import useItem from '../../queries/useItem';
 import './Menu.css';
  
-class Menu extends Component {
-    render() {
+const Menu = () =>  {
+        const {data: item} = useItem()
+            console.log("Item:", item)
         return (
             <div>
                 <header className="header">
@@ -19,6 +21,6 @@ class Menu extends Component {
             </div>
         );
     }
-}
+
  
 export default Menu;
